@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/play_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ad_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/btn_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@drawable/white" android:id="@id/btn_return" android:background="@drawable/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_return" android:layout_weight="1.0" />
+        <Button android:textColor="@drawable/white" android:layout_gravity="center_horizontal" android:id="@id/btn_hint" android:background="@drawable/blue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/button_hint" android:layout_weight="1.0" />
+        <Button android:textColor="@drawable/white" android:id="@id/btn_check" android:background="@drawable/blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_check" android:layout_weight="1.0" />
+        <Button android:textColor="@drawable/white" android:id="@id/btn_submit" android:background="@drawable/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_submit" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/info_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/horLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_gravity="left" android:id="@id/horButton" android:background="@color/solid_blue" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="@string/horizon" />
+            <TextView android:layout_gravity="fill" android:id="@id/horTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/verLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_gravity="left" android:id="@id/verButton" android:background="@color/solid_blue" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="@string/vertical" />
+            <TextView android:layout_gravity="fill" android:id="@id/verTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableLayout android:id="@id/table_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TableRow android:id="@id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed00" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed01" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed02" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed03" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed04" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed05" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed06" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed07" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed08" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed09" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed10" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:soundEffectsEnabled="true" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed11" android:background="@drawable/white" android:fadingEdge="horizontal|vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed12" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed13" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed14" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed15" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed16" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed17" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed18" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed19" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed20" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed21" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed22" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed23" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed24" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed25" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed26" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed27" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed28" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed29" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed30" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed31" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed32" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed33" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed34" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed35" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed36" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed37" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed38" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed39" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed40" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed41" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed42" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed43" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed44" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed45" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed46" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed47" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed48" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed49" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow06" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed50" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed51" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed52" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed53" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed54" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed55" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed56" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed57" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed58" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed59" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow07" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed60" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed61" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed62" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed63" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed64" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed65" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed66" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed67" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed68" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed69" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow08" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed70" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed71" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed72" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed73" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed74" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed75" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed76" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed77" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed78" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed79" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow09" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed80" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed81" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed82" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed83" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed84" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed85" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed86" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed87" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed88" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed89" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow android:id="@id/TableRow10" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed90" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed91" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed92" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed93" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed94" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed95" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed96" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed97" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed98" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <net.oicp.anya.CrossEditText android:gravity="center" android:id="@id/ed99" android:background="@drawable/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

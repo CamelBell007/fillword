@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_new">新游戏</string>
+    <string name="button_resume">上次游戏</string>
+    <string name="button_info">帮助</string>
+    <string name="button_exit">退出</string>
+    <string name="button_return">返回</string>
+    <string name="invalid_file">错误的文件格式</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="warn">警告</string>
+    <string name="confirm_delete">一旦删除，将不能恢复！</string>
+    <string name="puzzle_list">字谜列表</string>
+    <string name="welcome">YYs Soft Studio</string>
+    <string name="horizon">横</string>
+    <string name="vertical">纵</string>
+    <string name="button_hint">提示</string>
+    <string name="button_check">查错</string>
+    <string name="button_submit">提交</string>
+    <string name="hint_number_over">您的提示次数已经用完！</string>
+    <string name="menu_update">更新程序</string>
+    <string name="menu_fresh_puzzle">更新字谜</string>
+    <string name="help">建议意见</string>
+    <string name="exit">退出程序</string>
+    <string name="button_send">发 送</string>
+    <string name="downloading_please_wait">正在下载，请稍候...</string>
+    <string name="version_is_latest">已经是最新的版本！</string>
+    <string name="fresh_puzzle_error">更新字谜失败！</string>
+    <string name="menu_register">用户注册</string>
+    <string name="app_name">填字游戏</string>
+</resources>

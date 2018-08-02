@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/base_layout" android:layout_width="320.0px" android:layout_height="480.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/center_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:layout_marginRight="90.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="95.0dip" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/sheep" android:background="@drawable/sheep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:layout_alignBottom="@id/LinearLayout01" android:layout_alignParentRight="true" />
+</RelativeLayout>

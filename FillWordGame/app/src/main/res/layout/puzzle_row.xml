@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/puz_" android:padding="4.0px" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/puz_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:id="@id/puz_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ProgressBar android:id="@id/puz_process" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progress="0" style="?android:attr/progressBarStyleHorizontal" />
+    </LinearLayout>
+</LinearLayout>
